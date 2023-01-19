@@ -1,5 +1,5 @@
 const { generateToken } = require("../helper/generatetoken");
-
+const { UserModel } = require("../model/user.model");
 const get_req = (req, res) => {
   res.send("cheking user routes");
 };
